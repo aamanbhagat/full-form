@@ -5,19 +5,31 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "migrate": "node --env-file=.env.local scripts/db-migrate.mjs",
+    "seed": "node --env-file=.env.local scripts/seed.mjs",
+    "grow": "node --env-file=.env.local scripts/grow.mjs",
+    "generate": "node --env-file=.env.local --import tsx scripts/generate-content.ts",
+    "approve": "node --env-file=.env.local --import tsx scripts/bulk-approve.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.108.1",
+    "lucide-react": "^1.18.0",
     "next": "16.2.9",
+    "postgres": "^3.4.9",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "puppeteer-core": "^25.1.0",
     "tailwindcss": "^4",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
