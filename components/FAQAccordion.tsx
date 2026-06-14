@@ -5,15 +5,18 @@ import type { FaqItem } from '@/types';
 export function FAQAccordion({
   faqs,
   acronym,
+  title,
 }: {
   faqs: FaqItem[];
-  acronym: string;
+  acronym?: string;
+  title?: string;
 }) {
   if (faqs.length === 0) return null;
+  const heading = title ?? `${acronym} — frequently asked questions`;
   return (
     <section aria-labelledby="faq-heading">
       <h2 className="section-title" id="faq-heading">
-        {acronym} — frequently asked questions
+        {heading}
       </h2>
       <div className="faq">
         {faqs.map((faq, i) => (

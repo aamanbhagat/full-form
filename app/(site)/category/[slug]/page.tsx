@@ -116,6 +116,8 @@ export default async function CategoryPage({ params, searchParams }: Params) {
         <p className="category-header__desc">{meta.description}</p>
       </header>
 
+      <p className="prose category-intro">{meta.intro}</p>
+
       <nav className="az" aria-label="Filter by first letter">
         <Link
           href={hrefFor(meta.slug)}

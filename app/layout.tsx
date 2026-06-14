@@ -68,6 +68,14 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     locale: 'en_IN',
   },
+  // Search-engine ownership verification. Set the env vars in the host to emit
+  // the meta tags Google Search Console / Bing Webmaster Tools look for.
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
+      ? { 'msvalidate.01': process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION }
+      : {},
+  },
 };
 
 export default function RootLayout({

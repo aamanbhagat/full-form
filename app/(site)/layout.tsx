@@ -72,6 +72,16 @@ export default function SiteLayout({
                 ))}
               </div>
             </nav>
+            <nav aria-label="About this site">
+              <p className="eyebrow">FullFormHub</p>
+              <div className="footer-cats footer-cats--stack">
+                <Link href="/guides">Guides</Link>
+                <Link href="/about">About</Link>
+                <Link href="/contact">Contact</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
+                <Link href="/disclaimer">Disclaimer</Link>
+              </div>
+            </nav>
           </div>
           <p className="footer-legal">
             © {YEAR} {SITE_NAME}. Reference content for

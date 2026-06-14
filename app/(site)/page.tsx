@@ -8,6 +8,7 @@ import { buildOrganizationSchema, buildWebsiteSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
+  openGraph: { url: '/' },
 };
 
 // ISR — refresh the homepage (counts + trending) hourly.

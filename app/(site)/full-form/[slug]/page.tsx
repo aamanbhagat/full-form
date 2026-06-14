@@ -106,6 +106,17 @@ export default async function AcronymPage({ params }: Params) {
         category={acronym.category}
       />
 
+      <p className="legal-meta">
+        Last updated:{' '}
+        <time dateTime={new Date(acronym.updated_at).toISOString()}>
+          {new Date(acronym.updated_at).toLocaleDateString('en-GB', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric',
+          })}
+        </time>
+      </p>
+
       <section aria-labelledby="about-heading">
         <h2 className="section-title" id="about-heading">
           What is {acronym.acronym}?

@@ -1,6 +1,6 @@
 import type { AcronymRow, AcronymSummary, FaqItem } from '@/types';
 import { CATEGORY_META } from '@/lib/categories';
-import { SITE_NAME, SITE_URL, absoluteUrl } from '@/lib/seo';
+import { SITE_NAME, SITE_URL, SOCIAL_LINKS, absoluteUrl } from '@/lib/seo';
 
 type JsonLd = Record<string, unknown>;
 
@@ -50,14 +50,45 @@ export function buildBreadcrumbSchema(
 
 /** Brand entity — helps Google build the Knowledge Graph panel. */
 export function buildOrganizationSchema(): JsonLd {
-  return {
+  const org: JsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: SITE_URL,
-    logo: absoluteUrl('/icon.svg'),
+    // Raster logo (PNG) — Google's logo guidelines prefer a raster over SVG.
+    logo: {
+      '@type': 'ImageObject',
+      url: absoluteUrl('/apple-icon'),
+      width: 180,
+      height: 180,
+    },
     description:
       'A reference site for the full forms of Indian acronyms across banking, government, education, medical, tech, and more.',
+  };
+  if (SOCIAL_LINKS.length > 0) org.sameAs = SOCIAL_LINKS;
+  return org;
+}
+
+/** Editorial guide page as an Article (with breadcrumb emitted separately). */
+export function buildArticleSchema(article: {
+  title: string;
+  description: string;
+  url: string;
+  datePublished: string;
+  dateModified: string;
+}): JsonLd {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.description,
+    url: article.url,
+    mainEntityOfPage: article.url,
+    datePublished: article.datePublished,
+    dateModified: article.dateModified,
+    author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+    publisher: { '@id': `${SITE_URL}/#organization` },
   };
 }
 

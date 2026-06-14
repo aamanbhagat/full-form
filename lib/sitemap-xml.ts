@@ -1,8 +1,18 @@
 import 'server-only';
 import { CATEGORY_META, slugToCategory } from '@/lib/categories';
 import { getCategoryRows, getLatestUpdatedAt, getSitemapRows } from '@/lib/data';
+import { GUIDES } from '@/lib/guides';
 import { SITE_URL } from '@/lib/seo';
 import type { CategorySlug } from '@/types';
+
+// Evergreen informational/legal pages (static, always present).
+const STATIC_PAGES: Array<{ path: string; priority: string; changefreq: string }> = [
+  { path: '/guides', priority: '0.6', changefreq: 'weekly' },
+  { path: '/about', priority: '0.4', changefreq: 'yearly' },
+  { path: '/contact', priority: '0.4', changefreq: 'yearly' },
+  { path: '/privacy-policy', priority: '0.3', changefreq: 'yearly' },
+  { path: '/disclaimer', priority: '0.3', changefreq: 'yearly' },
+];
 
 const PRIORITY: Record<CategorySlug, string> = {
   banking: '0.8',
@@ -82,6 +92,16 @@ export async function pagesSitemapXml(): Promise<string> {
       loc: `${SITE_URL}/category/${slug}`,
       priority: '0.8',
       changefreq: 'weekly',
+    })),
+    ...STATIC_PAGES.map((p) => ({
+      loc: `${SITE_URL}${p.path}`,
+      priority: p.priority,
+      changefreq: p.changefreq,
+    })),
+    ...GUIDES.map((g) => ({
+      loc: `${SITE_URL}/guides/${g.slug}`,
+      priority: '0.6',
+      changefreq: 'monthly',
     })),
   ];
   const body = urls
