@@ -6,6 +6,7 @@ import {
   IBM_Plex_Mono,
   IBM_Plex_Sans_Devanagari,
 } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_NAME, SITE_URL } from '@/lib/seo';
 
@@ -106,6 +107,7 @@ export default function RootLayout({
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
           />
         ) : null}
+        <Analytics />
       </body>
     </html>
   );
