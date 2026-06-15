@@ -6,6 +6,7 @@ import {
   IBM_Plex_Mono,
   IBM_Plex_Sans_Devanagari,
 } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_NAME, SITE_URL } from '@/lib/seo';
 
@@ -98,6 +99,7 @@ export default function RootLayout({
           Skip to content
         </a>
         {children}
+        <Analytics />
         {adsenseClient ? (
           <Script
             async
