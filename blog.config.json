@@ -1,0 +1,16 @@
+{
+  "siteName": "FullFormHub",
+  "siteUrl": "https://fullformhub.live",
+  "niche": "full forms, abbreviations and acronyms used in India — exams, government, banking, technology and everyday terms",
+  "audience": "Indian students and professionals searching for the full form or meaning of an abbreviation",
+  "topicGuidance": "Prefer explainer topics: what an acronym stands for and means, category round-ups (banking abbreviations, medical short forms, government scheme acronyms), exam-relevant lists, and how-to-remember guides. Be accurate and India-focused.",
+  "coverColors": ["#1e1b4b", "#6366f1"],
+  "categories": [
+    { "slug": "explainers", "name": "Explainers" },
+    { "slug": "exams", "name": "Exams & Education" },
+    { "slug": "categories", "name": "Acronym Lists" }
+  ],
+  "authors": [
+    { "slug": "fullformhub-desk", "name": "FullFormHub Desk" }
+  ]
+}
