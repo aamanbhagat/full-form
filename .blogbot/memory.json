@@ -1,114 +1,139 @@
 {
   "version": 1,
   "siteBirth": "2026-06-19",
-  "lastRunAt": "2026-06-20T13:05:54.935Z",
+  "lastRunAt": "2026-06-20T13:20:57.692Z",
   "runs": [
     {
-      "ts": "2026-06-20T13:00:55.183Z",
+      "ts": "2026-06-20T13:06:18.160Z",
+      "phase": "seed",
+      "category": "explainers",
+      "keywordTier": "long-tail",
+      "primaryKeyword": "what is irdai full form",
+      "title": "What is IRDAI Full Form in Insurance and Banking Explained",
+      "slug": "what-is-irdai-full-form-in-insurance-and-banking-explained",
+      "wordCount": 1824
+    },
+    {
+      "ts": "2026-06-20T13:17:56.777Z",
       "phase": "seed",
       "category": "exams",
       "keywordTier": "long-tail",
-      "primaryKeyword": "what is ssc gd full form",
-      "title": "What is SSC GD Full Form? SSC GD Constable Exam Explained",
-      "slug": "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained",
-      "wordCount": 1709
+      "primaryKeyword": "what is upsssc pet full form",
+      "title": "What is UPSSSC PET Full Form? Exam Eligibility & Pattern",
+      "slug": "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
+      "wordCount": 2455
     },
     {
-      "ts": "2026-06-20T13:05:54.935Z",
+      "ts": "2026-06-20T13:20:57.692Z",
       "phase": "seed",
-      "category": "categories",
+      "category": "exams",
       "keywordTier": "long-tail",
-      "primaryKeyword": "banking abbreviations full form list for competitive exams",
-      "title": "Banking Abbreviations Full Form List for Competitive Exams",
-      "slug": "banking-abbreviations-full-form-list-for-competitive-exams",
-      "wordCount": 1989
+      "primaryKeyword": "what is ctet full form",
+      "title": "What is CTET Full Form? Central Teacher Eligibility Test Explained",
+      "slug": "what-is-ctet-full-form-central-teacher-eligibility-test-explained",
+      "wordCount": 2117
     }
   ],
   "usedKeywords": [
-    "what is ssc gd full form",
-    "banking abbreviations full form list for competitive exams"
+    "what is irdai full form",
+    "what is upsssc pet full form",
+    "what is ctet full form"
   ],
   "usedTitles": [
-    "What is SSC GD Full Form? SSC GD Constable Exam Explained",
-    "Banking Abbreviations Full Form List for Competitive Exams"
+    "What is IRDAI Full Form in Insurance and Banking Explained",
+    "What is UPSSSC PET Full Form? Exam Eligibility & Pattern",
+    "What is CTET Full Form? Central Teacher Eligibility Test Explained"
   ],
   "usedSlugs": [
-    "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained",
-    "banking-abbreviations-full-form-list-for-competitive-exams"
+    "what-is-irdai-full-form-in-insurance-and-banking-explained",
+    "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
+    "what-is-ctet-full-form-central-teacher-eligibility-test-explained"
   ],
   "clusters": {
-    "Government Exams": {
-      "members": [
-        "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained"
-      ],
-      "primaryKeywords": [
-        "what is ssc gd full form"
-      ]
-    },
-    "SSC Exams": {
-      "members": [
-        "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained"
-      ],
-      "primaryKeywords": [
-        "what is ssc gd full form"
-      ]
-    },
-    "Full Form Explainers": {
-      "members": [
-        "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained"
-      ],
-      "primaryKeywords": [
-        "what is ssc gd full form"
-      ]
-    },
-    "Police Exams": {
-      "members": [
-        "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained"
-      ],
-      "primaryKeywords": [
-        "what is ssc gd full form"
-      ]
-    },
     "Banking Abbreviations": {
       "members": [
-        "banking-abbreviations-full-form-list-for-competitive-exams"
+        "what-is-irdai-full-form-in-insurance-and-banking-explained",
+        "what-is-upsssc-pet-full-form-exam-eligibility-pattern"
       ],
       "primaryKeywords": [
-        "banking abbreviations full form list for competitive exams"
+        "what is irdai full form",
+        "what is upsssc pet full form"
       ]
     },
-    "Competitive Exams": {
+    "Government Acronyms": {
       "members": [
-        "banking-abbreviations-full-form-list-for-competitive-exams"
+        "what-is-irdai-full-form-in-insurance-and-banking-explained"
       ],
       "primaryKeywords": [
-        "banking abbreviations full form list for competitive exams"
+        "what is irdai full form"
       ]
     },
-    "Banking Awareness": {
+    "Insurance Terms": {
       "members": [
-        "banking-abbreviations-full-form-list-for-competitive-exams"
+        "what-is-irdai-full-form-in-insurance-and-banking-explained"
       ],
       "primaryKeywords": [
-        "banking abbreviations full form list for competitive exams"
+        "what is irdai full form"
       ]
     },
-    "Full Forms": {
+    "Financial Regulators": {
       "members": [
-        "banking-abbreviations-full-form-list-for-competitive-exams"
+        "what-is-irdai-full-form-in-insurance-and-banking-explained"
       ],
       "primaryKeywords": [
-        "banking abbreviations full form list for competitive exams"
+        "what is irdai full form"
+      ]
+    },
+    "Exams & Education": {
+      "members": [
+        "what-is-upsssc-pet-full-form-exam-eligibility-pattern"
+      ],
+      "primaryKeywords": [
+        "what is upsssc pet full form"
+      ]
+    },
+    "Government Exams": {
+      "members": [
+        "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
+        "what-is-ctet-full-form-central-teacher-eligibility-test-explained"
+      ],
+      "primaryKeywords": [
+        "what is upsssc pet full form",
+        "what is ctet full form"
+      ]
+    },
+    "UPSSSC": {
+      "members": [
+        "what-is-upsssc-pet-full-form-exam-eligibility-pattern"
+      ],
+      "primaryKeywords": [
+        "what is upsssc pet full form"
+      ]
+    },
+    "Teaching Exams": {
+      "members": [
+        "what-is-ctet-full-form-central-teacher-eligibility-test-explained"
+      ],
+      "primaryKeywords": [
+        "what is ctet full form"
+      ]
+    },
+    "Education Abbreviations": {
+      "members": [
+        "what-is-ctet-full-form-central-teacher-eligibility-test-explained"
+      ],
+      "primaryKeywords": [
+        "what is ctet full form"
       ]
     }
   },
   "phaseHistory": [
     {
-      "ts": "2026-06-20T13:00:55.183Z",
+      "ts": "2026-06-20T13:06:18.160Z",
       "phase": "seed"
     }
   ],
   "notes": [
-    "For the next run, extend the government exams cluster by publishing \"What is UPSC CSE Full Form?\" to capture another high-volume long-tail query, and internally link it to the SSC GD post using the anchor text \"competitive exam full forms\" to build topical authority."
+    "Next run, target \"what is sebi full form\" and \"what is pfrda full form\" to build a financial regulators cluster that internally links to the new IRDAI post, and publish \"UPTET full form\" to create a reciprocal internal-linking bridge with the CTET article."
   ]
 }

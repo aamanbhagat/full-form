@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="368" viewBox="0 0 920 368" role="img">
+  <rect width="920" height="368" fill="#ffffff"/>
+  <text x="40" y="44" font-family="system-ui,Segoe UI,Arial" font-size="24" font-weight="700" fill="#1e1b4b">Indian Insurance Market Growth</text>
+  <line x1="40" y1="304" x2="880" y2="304" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="40.0" y="166.0" width="262.7" height="138" rx="6" fill="#6366f1"/>
+    <text x="171.3" y="156.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">6.9₹</text>
+    <text x="171.3" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">FY 2021-22 Premium</text>
+    <rect x="328.7" y="164.0" width="262.7" height="140" rx="6" fill="#6366f1"/>
+    <text x="460.0" y="154.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">7₹</text>
+    <text x="460.0" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">FY 2022-23 Premium</text>
+    <rect x="617.3" y="84.0" width="262.7" height="220" rx="6" fill="#6366f1"/>
+    <text x="748.7" y="74.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">11₹</text>
+    <text x="748.7" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">FY 2025-26 Project</text>
+</svg>
