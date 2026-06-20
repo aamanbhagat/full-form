@@ -2,6 +2,7 @@ import 'server-only';
 import { CATEGORY_META, slugToCategory } from '@/lib/categories';
 import { getCategoryRows, getLatestUpdatedAt, getSitemapRows } from '@/lib/data';
 import { GUIDES } from '@/lib/guides';
+import { getAllPosts } from '@/lib/blog';
 import { SITE_URL } from '@/lib/seo';
 import type { CategorySlug } from '@/types';
 
@@ -100,6 +101,12 @@ export async function pagesSitemapXml(): Promise<string> {
     })),
     ...GUIDES.map((g) => ({
       loc: `${SITE_URL}/guides/${g.slug}`,
+      priority: '0.6',
+      changefreq: 'monthly',
+    })),
+    { loc: `${SITE_URL}/blog`, priority: '0.6', changefreq: 'weekly' },
+    ...getAllPosts().map((p) => ({
+      loc: `${SITE_URL}/blog/${p.slug}`,
       priority: '0.6',
       changefreq: 'monthly',
     })),
