@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "siteBirth": "2026-06-19",
+  "lastRunAt": "2026-06-20T13:05:54.935Z",
+  "runs": [
+    {
+      "ts": "2026-06-20T13:00:55.183Z",
+      "phase": "seed",
+      "category": "exams",
+      "keywordTier": "long-tail",
+      "primaryKeyword": "what is ssc gd full form",
+      "title": "What is SSC GD Full Form? SSC GD Constable Exam Explained",
+      "slug": "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained",
+      "wordCount": 1709
+    },
+    {
+      "ts": "2026-06-20T13:05:54.935Z",
+      "phase": "seed",
+      "category": "categories",
+      "keywordTier": "long-tail",
+      "primaryKeyword": "banking abbreviations full form list for competitive exams",
+      "title": "Banking Abbreviations Full Form List for Competitive Exams",
+      "slug": "banking-abbreviations-full-form-list-for-competitive-exams",
+      "wordCount": 1989
+    }
+  ],
+  "usedKeywords": [
+    "what is ssc gd full form",
+    "banking abbreviations full form list for competitive exams"
+  ],
+  "usedTitles": [
+    "What is SSC GD Full Form? SSC GD Constable Exam Explained",
+    "Banking Abbreviations Full Form List for Competitive Exams"
+  ],
+  "usedSlugs": [
+    "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained",
+    "banking-abbreviations-full-form-list-for-competitive-exams"
+  ],
+  "clusters": {
+    "Government Exams": {
+      "members": [
+        "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained"
+      ],
+      "primaryKeywords": [
+        "what is ssc gd full form"
+      ]
+    },
+    "SSC Exams": {
+      "members": [
+        "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained"
+      ],
+      "primaryKeywords": [
+        "what is ssc gd full form"
+      ]
+    },
+    "Full Form Explainers": {
+      "members": [
+        "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained"
+      ],
+      "primaryKeywords": [
+        "what is ssc gd full form"
+      ]
+    },
+    "Police Exams": {
+      "members": [
+        "what-is-ssc-gd-full-form-ssc-gd-constable-exam-explained"
+      ],
+      "primaryKeywords": [
+        "what is ssc gd full form"
+      ]
+    },
+    "Banking Abbreviations": {
+      "members": [
+        "banking-abbreviations-full-form-list-for-competitive-exams"
+      ],
+      "primaryKeywords": [
+        "banking abbreviations full form list for competitive exams"
+      ]
+    },
+    "Competitive Exams": {
+      "members": [
+        "banking-abbreviations-full-form-list-for-competitive-exams"
+      ],
+      "primaryKeywords": [
+        "banking abbreviations full form list for competitive exams"
+      ]
+    },
+    "Banking Awareness": {
+      "members": [
+        "banking-abbreviations-full-form-list-for-competitive-exams"
+      ],
+      "primaryKeywords": [
+        "banking abbreviations full form list for competitive exams"
+      ]
+    },
+    "Full Forms": {
+      "members": [
+        "banking-abbreviations-full-form-list-for-competitive-exams"
+      ],
+      "primaryKeywords": [
+        "banking abbreviations full form list for competitive exams"
+      ]
+    }
+  },
+  "phaseHistory": [
+    {
+      "ts": "2026-06-20T13:00:55.183Z",
+      "phase": "seed"
+    }
+  ],
+  "notes": [
+    "For the next run, extend the government exams cluster by publishing \"What is UPSC CSE Full Form?\" to capture another high-volume long-tail query, and internally link it to the SSC GD post using the anchor text \"competitive exam full forms\" to build topical authority."
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="368" viewBox="0 0 920 368" role="img">
+  <rect width="920" height="368" fill="#ffffff"/>
+  <text x="40" y="44" font-family="system-ui,Segoe UI,Arial" font-size="24" font-weight="700" fill="#1e1b4b">Common Banking Abbreviations by Category</text>
+  <line x1="40" y1="304" x2="880" y2="304" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="40.0" y="139.0" width="190.5" height="165" rx="6" fill="#6366f1"/>
+    <text x="135.3" y="129.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">6</text>
+    <text x="135.3" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">Digital Payments</text>
+    <rect x="256.5" y="111.0" width="190.5" height="193" rx="6" fill="#6366f1"/>
+    <text x="351.8" y="101.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">7</text>
+    <text x="351.8" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">RBI &amp; Monetary</text>
+    <rect x="473.0" y="84.0" width="190.5" height="220" rx="6" fill="#6366f1"/>
+    <text x="568.3" y="74.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">8</text>
+    <text x="568.3" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">Banking Ops</text>
+    <rect x="689.5" y="194.0" width="190.5" height="110" rx="6" fill="#6366f1"/>
+    <text x="784.8" y="184.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">4</text>
+    <text x="784.8" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">Intl Trade</text>
+</svg>
