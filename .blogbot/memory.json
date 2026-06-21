@@ -1,7 +1,7 @@
 {
   "version": 1,
   "siteBirth": "2026-06-19",
-  "lastRunAt": "2026-06-20T13:20:57.692Z",
+  "lastRunAt": "2026-06-21T05:15:39.045Z",
   "runs": [
     {
       "ts": "2026-06-20T13:06:18.160Z",
@@ -32,32 +32,47 @@
       "title": "What is CTET Full Form? Central Teacher Eligibility Test Explained",
       "slug": "what-is-ctet-full-form-central-teacher-eligibility-test-explained",
       "wordCount": 2117
+    },
+    {
+      "ts": "2026-06-21T05:15:39.045Z",
+      "phase": "seed",
+      "category": "explainers",
+      "keywordTier": "mid-tail",
+      "primaryKeyword": "what is sebi full form",
+      "title": "What is SEBI Full Form? Securities and Exchange Board of India",
+      "slug": "what-is-sebi-full-form-securities-and-exchange-board-of-india",
+      "wordCount": 1946
     }
   ],
   "usedKeywords": [
     "what is irdai full form",
     "what is upsssc pet full form",
-    "what is ctet full form"
+    "what is ctet full form",
+    "what is sebi full form"
   ],
   "usedTitles": [
     "What is IRDAI Full Form in Insurance and Banking Explained",
     "What is UPSSSC PET Full Form? Exam Eligibility & Pattern",
-    "What is CTET Full Form? Central Teacher Eligibility Test Explained"
+    "What is CTET Full Form? Central Teacher Eligibility Test Explained",
+    "What is SEBI Full Form? Securities and Exchange Board of India"
   ],
   "usedSlugs": [
     "what-is-irdai-full-form-in-insurance-and-banking-explained",
     "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
-    "what-is-ctet-full-form-central-teacher-eligibility-test-explained"
+    "what-is-ctet-full-form-central-teacher-eligibility-test-explained",
+    "what-is-sebi-full-form-securities-and-exchange-board-of-india"
   ],
   "clusters": {
     "Banking Abbreviations": {
       "members": [
         "what-is-irdai-full-form-in-insurance-and-banking-explained",
-        "what-is-upsssc-pet-full-form-exam-eligibility-pattern"
+        "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
+        "what-is-sebi-full-form-securities-and-exchange-board-of-india"
       ],
       "primaryKeywords": [
         "what is irdai full form",
-        "what is upsssc pet full form"
+        "what is upsssc pet full form",
+        "what is sebi full form"
       ]
     },
     "Government Acronyms": {
@@ -78,10 +93,12 @@
     },
     "Financial Regulators": {
       "members": [
-        "what-is-irdai-full-form-in-insurance-and-banking-explained"
+        "what-is-irdai-full-form-in-insurance-and-banking-explained",
+        "what-is-sebi-full-form-securities-and-exchange-board-of-india"
       ],
       "primaryKeywords": [
-        "what is irdai full form"
+        "what is irdai full form",
+        "what is sebi full form"
       ]
     },
     "Exams & Education": {
@@ -125,6 +142,14 @@
       "primaryKeywords": [
         "what is ctet full form"
       ]
+    },
+    "Explainers": {
+      "members": [
+        "what-is-sebi-full-form-securities-and-exchange-board-of-india"
+      ],
+      "primaryKeywords": [
+        "what is sebi full form"
+      ]
     }
   },
   "phaseHistory": [
@@ -134,6 +159,7 @@
     }
   ],
   "notes": [
-    "Next run, target \"what is sebi full form\" and \"what is pfrda full form\" to build a financial regulators cluster that internally links to the new IRDAI post, and publish \"UPTET full form\" to create a reciprocal internal-linking bridge with the CTET article."
+    "Next run, target \"what is sebi full form\" and \"what is pfrda full form\" to build a financial regulators cluster that internally links to the new IRDAI post, and publish \"UPTET full form\" to create a reciprocal internal-linking bridge with the CTET article.",
+    "Extend the Indian financial regulators cluster next run by publishing \"RBI Full Form\" and \"IRDAI Full Form,\" and add an internal link from the new SEBI post to these upcoming pages using the anchor text \"other top financial regulators in India.\""
   ]
 }
