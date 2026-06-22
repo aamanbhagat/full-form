@@ -1,7 +1,7 @@
 {
   "version": 1,
   "siteBirth": "2026-06-19",
-  "lastRunAt": "2026-06-22T07:10:41.176Z",
+  "lastRunAt": "2026-06-22T08:24:05.760Z",
   "runs": [
     {
       "ts": "2026-06-20T13:06:18.160Z",
@@ -72,6 +72,16 @@
       "title": "What is NABARD Full Form? National Bank Explained",
       "slug": "what-is-nabard-full-form-national-bank-explained",
       "wordCount": 1956
+    },
+    {
+      "ts": "2026-06-22T08:24:05.760Z",
+      "phase": "seed",
+      "category": "categories",
+      "keywordTier": "long-tail",
+      "primaryKeyword": "medical abbreviations full form list for NEET",
+      "title": "Medical Abbreviations Full Form List for Indian Students & NEET",
+      "slug": "medical-abbreviations-full-form-list-for-indian-students-neet",
+      "wordCount": 2020
     }
   ],
   "usedKeywords": [
@@ -81,7 +91,8 @@
     "what is sebi full form",
     "what is pfrda full form",
     "what is rbi full form in banking",
-    "NABARD full form"
+    "NABARD full form",
+    "medical abbreviations full form list for NEET"
   ],
   "usedTitles": [
     "What is IRDAI Full Form in Insurance and Banking Explained",
@@ -90,7 +101,8 @@
     "What is SEBI Full Form? Securities and Exchange Board of India",
     "What is PFRDA Full Form? Pension Fund Regulator Explained",
     "What is RBI Full Form in Banking? Reserve Bank of India",
-    "What is NABARD Full Form? National Bank Explained"
+    "What is NABARD Full Form? National Bank Explained",
+    "Medical Abbreviations Full Form List for Indian Students & NEET"
   ],
   "usedSlugs": [
     "what-is-irdai-full-form-in-insurance-and-banking-explained",
@@ -99,7 +111,8 @@
     "what-is-sebi-full-form-securities-and-exchange-board-of-india",
     "what-is-pfrda-full-form-pension-fund-regulator-explained",
     "what-is-rbi-full-form-in-banking-reserve-bank-of-india",
-    "what-is-nabard-full-form-national-bank-explained"
+    "what-is-nabard-full-form-national-bank-explained",
+    "medical-abbreviations-full-form-list-for-indian-students-neet"
   ],
   "clusters": {
     "Banking Abbreviations": {
@@ -152,10 +165,12 @@
     },
     "Exams & Education": {
       "members": [
-        "what-is-upsssc-pet-full-form-exam-eligibility-pattern"
+        "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
+        "medical-abbreviations-full-form-list-for-indian-students-neet"
       ],
       "primaryKeywords": [
-        "what is upsssc pet full form"
+        "what is upsssc pet full form",
+        "medical abbreviations full form list for NEET"
       ]
     },
     "Government Exams": {
@@ -199,11 +214,13 @@
     "Explainers": {
       "members": [
         "what-is-sebi-full-form-securities-and-exchange-board-of-india",
-        "what-is-nabard-full-form-national-bank-explained"
+        "what-is-nabard-full-form-national-bank-explained",
+        "medical-abbreviations-full-form-list-for-indian-students-neet"
       ],
       "primaryKeywords": [
         "what is sebi full form",
-        "NABARD full form"
+        "NABARD full form",
+        "medical abbreviations full form list for NEET"
       ]
     },
     "Pension Abbreviations": {
@@ -221,6 +238,14 @@
       "primaryKeywords": [
         "what is rbi full form in banking"
       ]
+    },
+    "Acronym Lists": {
+      "members": [
+        "medical-abbreviations-full-form-list-for-indian-students-neet"
+      ],
+      "primaryKeywords": [
+        "medical abbreviations full form list for NEET"
+      ]
     }
   },
   "phaseHistory": [
@@ -232,6 +257,7 @@
   "notes": [
     "Next run, target \"what is sebi full form\" and \"what is pfrda full form\" to build a financial regulators cluster that internally links to the new IRDAI post, and publish \"UPTET full form\" to create a reciprocal internal-linking bridge with the CTET article.",
     "Extend the Indian financial regulators cluster next run by publishing \"RBI Full Form\" and \"IRDAI Full Form,\" and add an internal link from the new SEBI post to these upcoming pages using the anchor text \"other top financial regulators in India.\"",
-    "For the next run, target the mid-tail keyword \"SEBI full form\" to build out the financial regulatory cluster, and internally link all four posts from a centralized pillar page concept mapping India's top financial regulators."
+    "For the next run, target the mid-tail keyword \"SEBI full form\" to build out the financial regulatory cluster, and internally link all four posts from a centralized pillar page concept mapping India's top financial regulators.",
+    "Extend the medical cluster by publishing a \"Common Pharmacology Abbreviations & Drug Shortcuts for NEET\" post to capture that specific search intent, and internally link it bidirectionally with the newly published general medical abbreviations list to build topical authority for NEET-related queries"
   ]
 }
