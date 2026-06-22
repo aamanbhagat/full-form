@@ -1,7 +1,7 @@
 {
   "version": 1,
   "siteBirth": "2026-06-19",
-  "lastRunAt": "2026-06-21T05:15:39.045Z",
+  "lastRunAt": "2026-06-22T07:10:41.176Z",
   "runs": [
     {
       "ts": "2026-06-20T13:06:18.160Z",
@@ -42,37 +42,80 @@
       "title": "What is SEBI Full Form? Securities and Exchange Board of India",
       "slug": "what-is-sebi-full-form-securities-and-exchange-board-of-india",
       "wordCount": 1946
+    },
+    {
+      "ts": "2026-06-22T07:04:08.126Z",
+      "phase": "seed",
+      "category": "explainers",
+      "keywordTier": "long-tail",
+      "primaryKeyword": "what is pfrda full form",
+      "title": "What is PFRDA Full Form? Pension Fund Regulator Explained",
+      "slug": "what-is-pfrda-full-form-pension-fund-regulator-explained",
+      "wordCount": 1961
+    },
+    {
+      "ts": "2026-06-22T07:07:48.412Z",
+      "phase": "seed",
+      "category": "explainers",
+      "keywordTier": "long-tail",
+      "primaryKeyword": "what is rbi full form in banking",
+      "title": "What is RBI Full Form in Banking? Reserve Bank of India",
+      "slug": "what-is-rbi-full-form-in-banking-reserve-bank-of-india",
+      "wordCount": 2974
+    },
+    {
+      "ts": "2026-06-22T07:10:41.176Z",
+      "phase": "seed",
+      "category": "explainers",
+      "keywordTier": "mid-tail",
+      "primaryKeyword": "NABARD full form",
+      "title": "What is NABARD Full Form? National Bank Explained",
+      "slug": "what-is-nabard-full-form-national-bank-explained",
+      "wordCount": 1956
     }
   ],
   "usedKeywords": [
     "what is irdai full form",
     "what is upsssc pet full form",
     "what is ctet full form",
-    "what is sebi full form"
+    "what is sebi full form",
+    "what is pfrda full form",
+    "what is rbi full form in banking",
+    "NABARD full form"
   ],
   "usedTitles": [
     "What is IRDAI Full Form in Insurance and Banking Explained",
     "What is UPSSSC PET Full Form? Exam Eligibility & Pattern",
     "What is CTET Full Form? Central Teacher Eligibility Test Explained",
-    "What is SEBI Full Form? Securities and Exchange Board of India"
+    "What is SEBI Full Form? Securities and Exchange Board of India",
+    "What is PFRDA Full Form? Pension Fund Regulator Explained",
+    "What is RBI Full Form in Banking? Reserve Bank of India",
+    "What is NABARD Full Form? National Bank Explained"
   ],
   "usedSlugs": [
     "what-is-irdai-full-form-in-insurance-and-banking-explained",
     "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
     "what-is-ctet-full-form-central-teacher-eligibility-test-explained",
-    "what-is-sebi-full-form-securities-and-exchange-board-of-india"
+    "what-is-sebi-full-form-securities-and-exchange-board-of-india",
+    "what-is-pfrda-full-form-pension-fund-regulator-explained",
+    "what-is-rbi-full-form-in-banking-reserve-bank-of-india",
+    "what-is-nabard-full-form-national-bank-explained"
   ],
   "clusters": {
     "Banking Abbreviations": {
       "members": [
         "what-is-irdai-full-form-in-insurance-and-banking-explained",
         "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
-        "what-is-sebi-full-form-securities-and-exchange-board-of-india"
+        "what-is-sebi-full-form-securities-and-exchange-board-of-india",
+        "what-is-pfrda-full-form-pension-fund-regulator-explained",
+        "what-is-nabard-full-form-national-bank-explained"
       ],
       "primaryKeywords": [
         "what is irdai full form",
         "what is upsssc pet full form",
-        "what is sebi full form"
+        "what is sebi full form",
+        "what is pfrda full form",
+        "NABARD full form"
       ]
     },
     "Government Acronyms": {
@@ -94,11 +137,17 @@
     "Financial Regulators": {
       "members": [
         "what-is-irdai-full-form-in-insurance-and-banking-explained",
-        "what-is-sebi-full-form-securities-and-exchange-board-of-india"
+        "what-is-sebi-full-form-securities-and-exchange-board-of-india",
+        "what-is-pfrda-full-form-pension-fund-regulator-explained",
+        "what-is-rbi-full-form-in-banking-reserve-bank-of-india",
+        "what-is-nabard-full-form-national-bank-explained"
       ],
       "primaryKeywords": [
         "what is irdai full form",
-        "what is sebi full form"
+        "what is sebi full form",
+        "what is pfrda full form",
+        "what is rbi full form in banking",
+        "NABARD full form"
       ]
     },
     "Exams & Education": {
@@ -112,11 +161,15 @@
     "Government Exams": {
       "members": [
         "what-is-upsssc-pet-full-form-exam-eligibility-pattern",
-        "what-is-ctet-full-form-central-teacher-eligibility-test-explained"
+        "what-is-ctet-full-form-central-teacher-eligibility-test-explained",
+        "what-is-rbi-full-form-in-banking-reserve-bank-of-india",
+        "what-is-nabard-full-form-national-bank-explained"
       ],
       "primaryKeywords": [
         "what is upsssc pet full form",
-        "what is ctet full form"
+        "what is ctet full form",
+        "what is rbi full form in banking",
+        "NABARD full form"
       ]
     },
     "UPSSSC": {
@@ -145,10 +198,28 @@
     },
     "Explainers": {
       "members": [
-        "what-is-sebi-full-form-securities-and-exchange-board-of-india"
+        "what-is-sebi-full-form-securities-and-exchange-board-of-india",
+        "what-is-nabard-full-form-national-bank-explained"
       ],
       "primaryKeywords": [
-        "what is sebi full form"
+        "what is sebi full form",
+        "NABARD full form"
+      ]
+    },
+    "Pension Abbreviations": {
+      "members": [
+        "what-is-pfrda-full-form-pension-fund-regulator-explained"
+      ],
+      "primaryKeywords": [
+        "what is pfrda full form"
+      ]
+    },
+    "Banking": {
+      "members": [
+        "what-is-rbi-full-form-in-banking-reserve-bank-of-india"
+      ],
+      "primaryKeywords": [
+        "what is rbi full form in banking"
       ]
     }
   },
@@ -160,6 +231,7 @@
   ],
   "notes": [
     "Next run, target \"what is sebi full form\" and \"what is pfrda full form\" to build a financial regulators cluster that internally links to the new IRDAI post, and publish \"UPTET full form\" to create a reciprocal internal-linking bridge with the CTET article.",
-    "Extend the Indian financial regulators cluster next run by publishing \"RBI Full Form\" and \"IRDAI Full Form,\" and add an internal link from the new SEBI post to these upcoming pages using the anchor text \"other top financial regulators in India.\""
+    "Extend the Indian financial regulators cluster next run by publishing \"RBI Full Form\" and \"IRDAI Full Form,\" and add an internal link from the new SEBI post to these upcoming pages using the anchor text \"other top financial regulators in India.\"",
+    "For the next run, target the mid-tail keyword \"SEBI full form\" to build out the financial regulatory cluster, and internally link all four posts from a centralized pillar page concept mapping India's top financial regulators."
   ]
 }
