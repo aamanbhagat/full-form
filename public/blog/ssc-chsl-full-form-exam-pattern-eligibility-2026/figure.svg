@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="368" viewBox="0 0 920 368" role="img">
+  <rect width="920" height="368" fill="#ffffff"/>
+  <text x="40" y="44" font-family="system-ui,Segoe UI,Arial" font-size="24" font-weight="700" fill="#1e1b4b">SSC CHSL vs SSC GD: Quick Comparison</text>
+  <line x1="40" y1="304" x2="880" y2="304" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="40.0" y="206.0" width="190.5" height="98" rx="6" fill="#6366f1"/>
+    <text x="135.3" y="196.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">12</text>
+    <text x="135.3" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">Qualification Requ</text>
+    <rect x="256.5" y="84.0" width="190.5" height="220" rx="6" fill="#6366f1"/>
+    <text x="351.8" y="74.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">27</text>
+    <text x="351.8" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">Age Limit (years)</text>
+    <rect x="473.0" y="125.0" width="190.5" height="179" rx="6" fill="#6366f1"/>
+    <text x="568.3" y="115.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">22</text>
+    <text x="568.3" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">Starting Salary (₹</text>
+    <rect x="689.5" y="271.0" width="190.5" height="33" rx="6" fill="#6366f1"/>
+    <text x="784.8" y="261.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="20" font-weight="700" fill="#1e1b4b">4</text>
+    <text x="784.8" y="332.0" text-anchor="middle" font-family="system-ui,Segoe UI,Arial" font-size="17" fill="#475569">Exam Stages</text>
+</svg>
